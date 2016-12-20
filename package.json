@@ -1,6 +1,7 @@
 {
-  "name": "browsersyncstyles",
-  "title": "Browsersync styles",
+  "name": "bstyles",
+  "title": "Btyles",
+  "description": "Friendly look and feel for browsersync.notify",
   "author": "Urban Sanden",
   "main": "dist/js/index.js",
   "version": "0.1.0",

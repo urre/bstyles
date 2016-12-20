@@ -1,4 +1,8 @@
 
+# Bstyles
+
+Friendly look and feel for [browsersync.notify](https://www.browsersync.io/)
+
 ## Getting Started
 
     npm i bstyles
@@ -36,10 +40,10 @@ Example:
 
 ## Tools used to build the demo site
 
-+ Browsersync
-+ Gulp
 + CSS Next
 + Post CSS
++ Browsersync
++ Gulp with ES6
 + StyleLint
 + Hero patterns
 + Having fun with some responsive type
