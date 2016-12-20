@@ -10,6 +10,6 @@ module.exports = {
     dist: './docs/css/',
   },
   html: {
-    src: './**/*.html',
+    src: './docs/index.html',
   }
 };

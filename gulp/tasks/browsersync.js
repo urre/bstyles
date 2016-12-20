@@ -12,7 +12,7 @@ gulp.task('browsersync', () => {
   ],
     {
       server: {
-        baseDir: "./"
+        baseDir: "./docs/"
       },
       open: false,
       notify: true,
