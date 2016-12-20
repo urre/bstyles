@@ -47,8 +47,8 @@ gulp.task('browser-sync', () => {
 ## Tools used to build the demo site
 
 + [Basscss](http://basscss.com/)
-+ [CSS Next](http://cssnext.io/)
-+ [Post CSS](http://postcss.org/)
++ [cssnext](http://cssnext.io/)
++ [PostCSS](http://postcss.org/)
 + [Browsersync](https://www.browsersync.io)
 + [Gulp](http://gulpjs.com/) with some ES2015
 + [StyleLint](https://github.com/stylelint/stylelint)
