@@ -4,7 +4,7 @@
   "description": "Friendly look and feel for browsersync.notify",
   "author": "Urban Sanden",
   "main": "docs/js/index.js",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "scripts": {
     "start": "gulp",
