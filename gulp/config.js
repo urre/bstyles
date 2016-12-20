@@ -2,12 +2,12 @@ module.exports = {
   scripts: {
     src: './src/js/main.js',
     bstyles: './src/js/bstyles.js',
-    dist: './dist/js/'
+    dist: './docs/js/'
   },
   css: {
     main: './src/css/main.css',
     src: './src/css/**/*.css',
-    dist: './dist/css/',
+    dist: './docs/css/',
   },
   html: {
     src: './**/*.html',
