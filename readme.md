@@ -11,6 +11,12 @@ Friendly look and feel for [browsersync.notify](https://www.browsersync.io/)
 
 ### Import the styles in your BrowserSync configuration
 
+#### Available styles
++ top - 100% width top banner, green background
++ topLeft - Subtle green text, transparent background
++ bottomLeft - Small circular badge. White text with grey background
++ bottomRight - Subtle grey text, transparent background
+
 Example:
 
 ```javascript
@@ -32,7 +38,7 @@ gulp.task('browser-sync', () => {
       },
       notify: true,
       notify: {
-        styles: bstyles.Simple
+        styles: bstyles.bottomRight
       }
     });
 });
