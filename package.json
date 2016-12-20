@@ -3,8 +3,8 @@
   "title": "Btyles",
   "description": "Friendly look and feel for browsersync.notify",
   "author": "Urban Sanden",
-  "main": "dist/js/index.js",
-  "version": "0.1.0",
+  "main": "docs/js/index.js",
+  "version": "0.2.0",
   "license": "MIT",
   "scripts": {
     "start": "gulp",
