@@ -61,10 +61,10 @@
     
     <h4>Available styles</h4>
     <ul class="m0">
-      <li>top - 100% width top banner, green background</li>
-      <li>topLeft - Subtle green text, transparent background</li>
-      <li>bottomLeft - Small circular badge. White text with grey background</li>
-      <li>bottomRight - Subtle grey text, transparent background</li>
+      <li>Top - 100% width top banner, green background</li>
+      <li>TopLeft - Subtle green text, transparent background</li>
+      <li>BottomLeft - Small circular badge. White text with grey background</li>
+      <li>BottomRight - Subtle grey text, transparent background</li>
     </ul>
 
   </div>
@@ -79,7 +79,7 @@ const reload = browserSync.reload;
 
 gulp.task('browser-sync', () => {
   browserSync.init([
-    paths.css.src,
+    paths.css.srcB
     paths.scripts.src,
     paths.html.src
   ],
@@ -89,7 +89,7 @@ gulp.task('browser-sync', () => {
       },
       <span>notify: true,
       notify: {
-        styles: bstyles.bottomRight
+        styles: bstyles.BottomRight
       }</span>
     });
 });
