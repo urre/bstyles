@@ -12,10 +12,10 @@ Friendly look and feel for [browsersync.notify](https://www.browsersync.io/)
 ### Import the styles in your BrowserSync configuration
 
 #### Available styles
-+ top - 100% width top banner, green background
-+ topLeft - Subtle green text, transparent background
-+ bottomLeft - Small circular badge. White text with grey background
-+ bottomRight - Subtle grey text, transparent background
++ Top - 100% width top banner, green background
++ TopLeft - Subtle green text, transparent background
++ BottomLeft - Small circular badge. White text with grey background
++ BottomRight - Subtle grey text, transparent background
 
 Example:
 
