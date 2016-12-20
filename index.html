@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bstyles | Friendly look and feel for browsersync.notify</title>
+	<link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+
+<div class="bsstyles bsstyles-bottomleft">Connected to BrowserSync</div>
+<div class="bsstyles bsstyles-bottomright">Connected to BrowserSync</div>
+<div class="bsstyles bsstyles-topleft">Connected to BrowserSync</div>
+<div class="bsstyles bsstyles-top">Connected to BrowserSync</div>
+
+<header class="header p2">
+  <div class="flex flex-justify">
+    <div class="flex-auto">
+      <nav role="navigation" class="topnav">
+        <ul class="list-reset flex items-center">
+          <li class="mr2">
+            <a class="twitter-share-button"
+              href="https://twitter.com/intent/tweet?text=Hello%20world"
+              data-size="large">
+            Tweet</a>
+          </li>
+          <li class="mr2">
+            <a class="github-button" href="https://github.com/urre/bstyles" data-icon="octicon-star" data-style="mega" data-count-href="/urre/bstyles/stargazers" data-count-api="/repos/urre/bstyles#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star urre/bstyles on GitHub">Star</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="flex-auto right-align">
+
+    </div>
+  </div>
+</header>
+
+
+<div class="intro p4">
+  <h1 class="mt0">Bstyles</h1>
+  <h2>Friendly look and feel for browsersync.notify</h2>
+</div>
+
+<main class="main py2">
+  <div class="sm-flex justify-center">
+  <div class="col-10 md-col-6 p3">
+    <p>Change the default <a href="https://browsersync.io/">Browsersync</a> notification styles. Choose from different styles and alignments. Check the examples on the screen.</p>
+    
+    <h4>Available styles</h4>
+    <ul class="m0">
+      <li>top - <small>100% width top banner, green background</small></li>
+      <li>topLeft - <small>Subtle green text, transparent background</small></li>
+      <li>bottomLeft - <small>Small circular badge. White text with grey background</small></li>
+      <li>bottomRight - <small>Subtle grey text, transparent background</small></li>
+    </ul>
+
+  </div>
+    <div class="col-10 md-col-6 p3">
+      <h2 class="mt0">Example usage with Gulp</h2>
+<pre>
+import gulp from 'gulp';
+import browserSync from 'browser-sync';
+import paths from '../config';
+<span>import bstyles from 'bstyles';</span>
+const reload = browserSync.reload;
+
+gulp.task('browser-sync', () => {
+  browserSync.init([
+    paths.css.src,
+    paths.scripts.src,
+    paths.html.src
+  ],
+    {
+      server: {
+        baseDir: "./"
+      },
+      <span>notify: true,
+      notify: {
+        styles: bstyles.bottomRight
+      }</span>
+    });
+});
+
+gulp.task('bs-reload', () => {
+  browserSync.reload();
+});
+</pre>
+</div>
+
+</div>
+</main>
+
+
+<footer class="footer py4 mt4 mb4">
+  <div class="sm-flex justify-between">
+    
+    <div class="">
+      <div class="flex items-center">
+        <img class="mr2" src="https://avatars3.githubusercontent.com/u/307676?v=3&s=36" alt="">
+        <div>
+          Made by <a href="https://twitter.com/urre">Urban Sanden</a>
+        </div>
+      </div>
+      <div class="xs-hide sm-hide mt1 px1">
+        <a class="twitter-follow-button"
+        href="https://twitter.com/urre"
+        data-size="large">
+        Follow @urre</a>
+      </div>
+    </div>
+
+    <div class="">
+      <nav role="navigation">
+        <ul class="list-reset flex items-center m0">
+          <li class="mr2">
+            <a href="#">Github</a>
+          </li>
+          <li class="mr2">
+            <a href="#">npm</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+
+</footer>
+
+<script src="dist/js/main.js"></script>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+</body>
+</html>
