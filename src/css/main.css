@@ -49,6 +49,15 @@ pre span {
 	color: var(--link);
 }
 
+.footer-tools {
+	font-size: 60%;
+}
+
+.footer-tools li {
+	/*font-size: .75rem;*/
+	color: #ccc;
+}
+
 .footer img {
 	border-radius: 100%;
 }

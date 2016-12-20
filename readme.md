@@ -40,10 +40,11 @@ gulp.task('browser-sync', () => {
 
 ## Tools used to build the demo site
 
-+ CSS Next
-+ Post CSS
-+ Browsersync
-+ Gulp with ES6
-+ StyleLint
-+ Hero patterns
++ [Basscss](http://basscss.com/)
++ [CSS Next](http://cssnext.io/)
++ [Post CSS](http://postcss.org/)
++ [Browsersync](https://www.browsersync.io)
++ [Gulp](http://gulpjs.com/) with some ES2015
++ [StyleLint](https://github.com/stylelint/stylelint)
++ [Hero patterns](http://www.heropatterns.com/)
 + Having fun with some responsive type
