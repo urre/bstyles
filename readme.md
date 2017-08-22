@@ -53,4 +53,4 @@ gulp.task('browser-sync', () => {
 + [Gulp](http://gulpjs.com/) with some ES2015
 + [StyleLint](https://github.com/stylelint/stylelint)
 + [Hero patterns](http://www.heropatterns.com/)
-+ Having fun with some responsive type
++ ...and Having fun with some responsive type
